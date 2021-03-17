@@ -1,0 +1,731 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    color: #1C326B;
+}
+
+a:hover{
+    color: #bb5523;
+}
+
+ul{
+    line-height: 22px;
+}
+
+ol li{
+    margin-bottom: 6px;
+}
+
+p{
+    text-indent: 30px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+#nav{
+    font-size: 11px;
+    margin: 0 0 20px;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+h2{
+    padding: 15px 0 15px;
+    color: #203564;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+h3{
+    padding: 15px 0 15px 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', monospace;
+    color: #000;
+    background: #FFF;
+    min-width: 995px;
+    font-size: 14px;
+    line-height: 18px;
+    overflow-y: scroll;
+    height: 100%;
+    /* text-align: justify; */
+    -ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.mainwrapper{
+    position: relative;
+    min-height: 100%;
+}
+
+.header{
+    height: 293px;
+    background: url(../images/head_2.jpg) repeat-x 0 0;
+    position: relative;
+}
+
+.bg1{
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 500px;
+    background: url(../images/bg1.jpg) no-repeat 0 0;
+}
+
+
+.bg2{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 50px;
+    width: 500px;
+    background: url(../images/bg2.jpg) no-repeat 0 0;
+}
+
+.bg3{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    height: 50px;
+    width: 500px;
+    background: url(../images/bg3.jpg) no-repeat 0 0;
+}
+
+.bg4{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    height: 50px;
+    width: 500px;
+    background: url(../images/bg4.jpg) no-repeat 0 0;
+}
+
+.bg5{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    height: 50px;
+    width: 500px;
+    background: url(../images/bg5.jpg) no-repeat 0 0;
+}
+
+.bg6{
+    position: absolute;
+    top: 250px;
+    left: 0;
+    height: 50px;
+    width: 500px;
+    background: url(../images/bg6.jpg) no-repeat 0 0;
+}
+
+.bg7{
+    position: absolute;
+    top: 45px;
+    right: 0;
+    height: 89px;
+    width: 204px;
+    background: url(../images/bg7.jpg) no-repeat 0 0;
+}
+
+.bg8{
+    position: absolute;
+    top: 134px;
+    right: 30px;
+    height: 159px;
+    width:265px;
+    background: url(../images/bg8.jpg) no-repeat 0 0;
+}
+
+.logo{
+    position: absolute;
+    top: 19px;
+    left: 348px;
+}
+
+.tel{
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.slog{
+    position: absolute;
+    top: 235px;
+    width: 100%;
+    text-align: center;
+}
+
+.header__info p{
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+}
+
+/* Основной контент */
+
+.page{
+    overflow: hidden;
+    min-height: 69vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    width: 100%;
+    height: 43px;
+    align-items: center;
+    background: url(../images/head_3.jpg) repeat-x 0 0;
+}
+
+.list{
+    text-align: justify;
+}
+
+.table__list{
+    text-align: start;
+}
+
+.menu__list{
+   display: flex;
+   justify-content: center;
+}
+
+.menu__list li{
+    padding-left: 40px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu__list li::after{
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 2px;
+    background: url(../images/arr.gif);
+    right: -18px;
+ }
+
+ .menu__list li:last-child::after{
+    position: absolute;
+    content: "";
+    display: none;
+ }
+
+.menu a:hover{
+    color: #893911;
+    transition: .3s;
+}
+
+
+.section__one{
+    margin-top: 40px; 
+    min-height: 393px;
+}
+
+.content{
+    padding: 22px 80px 70px 100px;
+}
+
+.table__main{
+    margin: 0 0 0 22px;
+    padding: 42px 27px 22px;
+    background: url(../images/fon.gif) repeat-x 22px 22px;
+    min-height: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    min-width: 250px;
+    max-width: 253px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: start;
+}
+
+.title__one{
+    color: #F69940;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+
+.head{
+    text-align: center;
+}
+
+.style{
+    padding: 15px 0 15px;
+}
+
+.color{
+    color: #F69940;
+}
+
+
+/* footer */
+.footer{
+    position: relative;
+    margin: -70px 0 0;
+    height: 72px;
+    margin-top: auto;
+    background: url(../images/foot.gif) repeat-x 0 0;
+}
+
+.footer__content{
+    font-size: 12px;
+    line-height: 14px;
+    padding: 10px 0 6px 24px;
+}
+
+/* ZAKAZ    */
+
+
+.title__zakaz{
+    color: #F69940;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 15px;
+    padding-right: 460px;
+}
+
+/*
+Форма обратной связи
+*/
+#inline {
+    margin-left:-20px;
+    width:58%;
+    background:#FFF;
+    padding:30px 20px;
+ }
+ .txt {
+    display:inline-block;
+    color:#676767;
+    width:190px;
+    margin-bottom:10px;
+    border:1px solid #CCC;
+    padding:5px 9px;
+    font-size:15px!important;
+    line-height:1.4em;
+ }
+ .txtarea {
+    display:inline-block;
+    color:#676767;
+    width:617px;
+    margin-bottom:10px;
+    border:1px solid #CCC;
+    padding:5px 9px;
+    font-size:15px!important;
+    line-height:1.4em;
+    height:80px;
+ }
+ .txt:focus, .txtarea:focus {
+    border-style:solid;
+    border-color:#BABABA;
+    color:#444;
+ }
+ input.error, textarea.error {
+     border-color:#973D3D;
+     border-style:solid;
+     background:#F0BEBE;
+     color:#A35959;
+ }
+ input.error:focus, textarea.error:focus {
+     border-color:#973D3D;
+     color:#A35959;
+ }
+ #send { 
+     color:#FFFFFF;
+     display:block;
+     cursor:pointer;
+     padding:5px 11px;
+     font-size:1.2em;
+     border:solid 1px #F9F9F9;
+     border-radius:2px;
+     color: #000;
+     width:210px;
+     margin-bottom:20px;
+ }
+ #send:hover {
+     background:#979797;
+ }
+ /*
+ Форма обратной связи 
+ */
+
+
+ /* prerequsite */
+
+
+ .prerequsite__title{
+     text-align: center;
+ }
+
+
+
+
+ /* КОНТАКТЫ */
+
+ .title__contacts{
+    color: #F69940;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 15px;
+    padding-left: 28px;
+ }
+
+ .contacts__first{
+     font-weight: bold;
+     line-height: 28px;
+ }
+
+
+ /* PLAZMOTRONY */
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table thead tr {
+    border: 1px solid #BDBDBD;
+    padding: 5px;
+    background-color: #F3F6F7;
+    text-align: center;
+    font-size: 12px; 
+    }
+
+table thead tr td {
+    border: 1px solid #000;
+}
+
+table tbody tr td {
+    border: 1px solid #000;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.table__title{
+    font-weight: 600;
+}
+
+.photo__inner{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.photo__vpr210-1{
+    width: 300px;
+    height:250px;
+}
+
+.photo__vp410-1{
+    width: 300px;
+    height: 250px;
+}
+
+.descr__bottom{
+    text-align: center;
+}
+
+
+
+/* REWARDS */
+
+
+.rewards__list{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.rewards__list img{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.reward__photo-1{
+    width: 353px;
+    height: 288px;
+}
+
+.reward__photo-2{
+    width: 355px;
+    height: 251px;
+}
+
+.reward__photo-3{
+    width: 359px;
+    height: 171px;
+}
+
+
+
+/* ISTOCHNIK */
+
+.istochnik__photo{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+
+
+/* ADVANTAGES */
+
+
+.title__advantages{
+    color: #F69940;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.title__trubles{
+    color: #F69940;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+
+.photo__plus{
+    margin-bottom: 20px;
+}
+
+.photo__plus-inner{
+    display: flex;
+    justify-content: center;
+}
+
+.photo__plus-1{
+    width: 223px;
+    height: 200px;
+    margin-right: 15px;
+}
+
+.photo__plus-2{
+    width: 423px;
+    height: 260px;
+    margin-right: 15px;
+}
+
+.photo__plus-3{
+    width: 357px;
+    height: 232px;
+    margin-right: 95px;
+}
+
+.photo__plus-4{
+    width: 310px;
+    height: 232px;
+    margin-right: 15px;
+}
+
+.photo__plus-5{
+    width: 310px;
+    height: 232px;
+    margin-right: 15px;
+}
+
+.photo__plus-6{
+    width: 303px;
+    height: 171px;
+    margin-right: 15px;
+    margin: 0 auto;
+}
+
+.photo__plus-7{
+    width: 320px;
+    height: 200px;
+    margin-right: 15px;
+}
+
+.photo__plus-8{
+    width: 257px;
+    height: 203px;
+    margin-right: 15px;
+}
+
+.photo__plus-9{
+    width: 153px;
+    height:158px;
+}
+
+.photo__plus-10{
+    width: 153px;
+    height:158px;
+}
+
+.sopla{
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.photo__plus-11{
+    width: 303px;
+    height:174px;
+    margin: 0 auto;
+}
+
+.photo__import{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.photo__import-9{
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* PLAZMOTRONY  */
+
+
+.list__vpr-210{
+    padding-left: 40px;
+}
+
+.photo__products-vpr210{
+    display: block;
+    margin: 0 auto;
+    width: 490px;
+    height:380px;
+    margin-top: 15px; 
+}
+
+
+.effect1{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
+
+.wrapper__vpr-450{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo__products-vpr450{
+    width: 287px;
+    height: 250px;
+}
+
+
+/* SOPLA VPR 210 */
+
+
+.sopla__vpr-210{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo__sopla-210{
+    width: 300px;
+    height: 280px;
+}
+
+.photo__electrody-210{
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* SOPLA VPR-410 */
+
+
+.parts__vpr-410{
+    margin-top: 15px;
+}
+
+.photo__sopla-410{
+    width: 279px;
+    height: 240px;
+    display: block;
+    margin: 0 auto;
+}
+
+.photo__electrody-410{
+    width: 279px;
+    height: 240px;
+    display: block;
+    margin: 0 auto;
+}
+
+.photo__electrody-410{
+    width: 194px;
+    height: 250px;
+}
+
+
+/* COMMON PARTS */
+
+
+.photo__common-1{
+    width: 565px;
+    height: 330px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.photo__common-2{
+    width: 423px;
+    height: 313px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
