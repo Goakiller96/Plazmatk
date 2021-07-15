@@ -1,20 +1,43 @@
-$(document).ready(function () {
+$(function () {
 
-    //E-mail Ajax Send
-    $("form").submit(function () { //Change
-        var th = $(this);
-        $.ajax({
-            type: "POST",
-            url: "contact.php", //Change
-            data: th.serialize()
-        }).done(function () {
-            alert("Thank you!");
-            setTimeout(function () {
-                // Done Functions
-                th.trigger("reset");
-            }, 1000);
-        });
-        return false;
+    $('.top__slider').slick({
+
+        autoplay: true,
+        fade: true,
+        arrows: false,
+        dots: false
     });
 
+    $('.feedback__slider').slick({
+
+        arrows: false,
+        dots: false,
+        slidesToShow: 4,
+        slidesToScroll: 1
+
+    });
+
+});
+
+
+
+$(function () {  
+    $('.new__table-item a').each(function () { 
+        var location = window.location.href; 
+        var link = this.href;  
+        if(location == link) { 
+            $(this).addClass('active');
+        }
+    });
+});
+
+
+$(function () {  
+    $('.new__table-link').each(function () { 
+        var location = window.location.href; 
+        var link = this.href;  
+        if(location == link) { 
+            $(this).addClass('active');
+        }
+    });
 });
