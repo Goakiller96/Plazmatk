@@ -1,0 +1,23 @@
+
+.prerequisite__content{
+    padding: 0 15px;
+    margin-left: 80px;
+}
+
+.prerequisite__list{
+    margin-bottom: 15px;
+}
+
+.prerequsite__subtitle{
+    padding: 15px 0 15px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #203564;
+}
+
+.new__table {
+    position: sticky;
+    top: 50px;
+}

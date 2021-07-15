@@ -1,0 +1,29 @@
+.parts__content{
+    padding: 0 15px;
+    margin-left: 80px;
+}
+
+.parts__cards{
+    margin-bottom: 50px;
+}
+
+.parts__content-text{
+   margin-bottom: 30px;
+}
+
+.new__table{
+    position: sticky;
+    top: 50px;
+}
+
+.parts__photo {
+    max-width: 423px;
+    height: 313px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.parts__content-text{
+    max-width:585px;
+}

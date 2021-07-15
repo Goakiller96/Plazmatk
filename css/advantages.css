@@ -1,0 +1,152 @@
+.new__table {
+    min-width: 240px;
+    position: sticky;
+    top: 50px;
+}
+
+.advantages__content {
+    padding: 0 15px;
+    text-align: justify;
+    margin-left: 80px;
+}
+
+.advantages__subtitle {
+    padding: 15px 0 15px;
+    color: #203564;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.advantages__fixed-title {
+    color: #F69940;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.advantages__fixed-subtitle {
+    color: #F69940;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.advantages__text {
+    margin-bottom: 15px;
+}
+
+
+.title__trubles {
+    color: #F69940;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+
+.photo__plus {
+    margin-bottom: 20px;
+}
+
+.photo__plus-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.photo__plus-1 {
+    max-width: 223px;
+    height: 200px;
+    margin-right: 15px;
+}
+
+.photo__plus-2 {
+    max-width: 423px;
+    height: 260px;
+    margin-right: 15px;
+}
+
+.photo__plus-3 {
+    max-width: 357px;
+    height: 232px;
+    margin-right: 95px;
+}
+
+.photo__plus-4 {
+    max-width: 310px;
+    height: 232px;
+    margin-right: 15px;
+}
+
+.photo__plus-5 {
+    max-width: 310px;
+    height: 232px;
+    margin-right: 15px;
+}
+
+.photo__plus-6 {
+    max-width: 303px;
+    height: 171px;
+    margin-right: 15px;
+    margin: 0 auto;
+}
+
+.photo__plus-7 {
+    max-width: 320px;
+    height: 200px;
+    margin-right: 15px;
+}
+
+.photo__plus-8 {
+    max-width: 257px;
+    height: 203px;
+    margin-right: 15px;
+}
+
+.photo__plus-9 {
+    max-width: 153px;
+    height: 158px;
+}
+
+.photo__plus-10 {
+    max-width: 153px;
+    height: 158px;
+}
+
+.photo__plus-inner {
+    justify-content: space-around;
+
+}
+
+.photo__plus-11 {
+    max-width: 303px;
+    height: 174px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.photo__import {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.photo__import-9 {
+    display: block;
+    margin: 0 auto;
+}
+
+.photo__plus-descr {
+    margin-bottom: 20px;
+}
+
+.descr__bottom {
+    display: block;
+    font-weight: 700;
+}
+
+
+
+
+

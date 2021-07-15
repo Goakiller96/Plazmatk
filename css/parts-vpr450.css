@@ -1,0 +1,48 @@
+.parts-vpr450__content{
+    padding: 0 15px;
+    margin-left: 80px;
+}
+
+
+.parts-vpr450__table{
+  margin-bottom: 5px;
+}
+
+.new__table{
+    position: sticky;
+    top: 50px;
+}
+
+.parts__vpr450-cards{
+    margin-bottom: 80px;
+}
+
+.parts__vpr450-item{
+    max-height: 240px;
+}
+
+.parts__vpr450-img{
+    height: 140px;
+}
+
+.parts-vpr450__text{
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.photo__sopla-450 {
+    max-width: 279px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.photo__electrody-450 {
+    max-width: 279px;
+    display: block;
+    margin: 0 auto;
+}
+
+.photo-style{
+    box-shadow: 0 0 2px 5px rgb(221 221 221);
+}
