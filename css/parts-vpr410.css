@@ -1,0 +1,36 @@
+.parts-vpr410__content{
+    padding: 0 15px;margin-left: 80px;
+}
+ 
+.new__table{
+    position: sticky;
+    top: 50px;
+}
+
+.parts-vpr410__subtitle{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.photo__electrody-410 {
+    max-width: 194px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.parts__vpr410-cards{
+    margin-bottom: 80px;
+}
+
+.parts__vpr410-item{
+    max-height: 240px;
+}
+
+.parts__vpr410-img{
+    height: 140px;
+}
+
+
+

@@ -1,0 +1,13 @@
+.features__content {
+    padding: 0 15px;
+    text-align: justify;
+    margin-left: 80px;
+}
+
+.features__content-item {
+    margin-bottom: 15px;
+}
+
+.features__content-text{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,235 @@
+.wrapper {
+    justify-content: start;
+}
+.content {
+   padding: 0 15px;
+   margin-left: 80px;
+}
+.title__one {
+    color: #F69940;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+.head {
+    text-align: center;
+}
+.style {
+    padding: 15px 0 15px;
+}
+.color {
+    color: #F69940;
+}
+
+
+
+
+
+.slider__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align:center;
+}
+.top__slider {
+    width: 260px;
+}
+.top__slider-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align:center;
+}
+.top__slider-text span + span{
+    padding-left: 12px;
+}
+.top__slider-img{
+    max-width: 235px;
+    height: 200px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    background: #fff;
+}
+.active {
+    color: #fff;
+    background-color: #88a5b4;
+}
+
+
+
+
+
+
+ 
+@media (max-width: 768px){
+    .content{
+        font-size: 20px;
+    }
+}
+  
+ 
+@media (max-width: 576px){
+    
+    .header-tel__link {
+        font-size: 20px;
+    }
+    .header-email__link {
+        font-size: 18px;
+    }
+    .menu{
+        background: #07ffaf38;
+        height: 64px;
+        padding: 10px 0;
+    }
+    .menu a{
+        font-size: 28px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .page{
+        padding-top: 0;
+        padding-bottom: 350px;
+    }
+    .new__table{
+        min-width: 995px;
+    }
+    .new__table-link{
+        font-size: 24px;
+        padding: 20px 90px;
+        line-height: 30px;
+    }
+    .container {
+        padding: 0;
+    }
+    .top__slider {
+        width: 260px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .slider__title{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 19px;
+    }
+    .top__slider-text{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .content{
+        margin-left: 15px;
+        font-size: 20px;
+        min-height: 100%;
+    }
+    .content__item{
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .content__text{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .content__item{
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .content__title{
+        font-size: 30px;
+    }
+    .subtitle {
+        font-size: 28px;
+        line-height: 40px;
+        margin: 30px 0;
+    }
+    .footer{
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .footer__group{
+        width: 180px;
+    }
+    .footer__content {
+        justify-content: space-around;
+    }
+    .content__text{
+        line-height: 29px;
+    }
+}
+
+@media (max-width: 375px){
+    .header__title{
+        display: none;
+    }
+    .header__logo-title{
+        font-size: 40px;
+        margin-bottom: 85px;
+    }
+    .header-tel__link {
+        font-size: 34px;
+    }
+    .header-tel {
+        margin-bottom: 15px;
+    }
+    .header-email__link {
+        font-size: 20px;
+    }
+    .menu{
+        background: #07ffaf38;
+        height: 64px;
+        padding: 10px 0;
+    }
+  
+    .menu a{
+        font-size: 28px;
+    }
+    .new__table-link{
+        font-size: 28px;
+        line-height: 40px;
+        padding: 20px 90px;
+    }
+    .slider__title{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 19px;
+    }
+    .top__slider-text{
+        font-size: 28px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .content{
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .content__title{
+        font-size: 38px;
+    }
+    .content__item{
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 8px;
+    }
+    .content__text{
+        line-height: 40px;
+    }
+    .subtitle {
+        font-size: 28px;
+        line-height: 40px;
+        margin: 30px 0;
+    }
+    .footer{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .footer__content{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 15px;
+    }
+    .footer__group {
+        width: 175px; 
+    }
+}

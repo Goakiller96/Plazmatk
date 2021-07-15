@@ -1,0 +1,23 @@
+
+.vpr-410__content{
+    padding: 0 15px;
+    margin-left: 80px;
+}
+.vpr-410__subtitle{
+    text-align: center;
+    font-weight: 400;
+}
+
+.photo__products-vpr410 {
+    display: block;
+    margin: 0 auto;
+    width: 490px;
+    height: 380px;
+    margin-top: 15px;
+}
+
+
+.new__table{
+    position: sticky;
+    top: 50px;
+}

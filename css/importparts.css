@@ -1,0 +1,22 @@
+.importparts__content{
+    padding: 0 15px;
+    margin-left: 80px;
+}
+
+.photo__import {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30px;
+}
+
+.importparts__subtitle{
+    margin-bottom: 50px;
+}
+
+.photo__import-9{
+    display: block;
+    margin: 0 auto;
+}
+
+
