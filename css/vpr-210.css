@@ -79,7 +79,7 @@
         padding: 0;
     }
     .vpr-210__title{
-        font-size: 30px;
+        font-size: 38px;
     }
     .vpr-210__content{
         margin-left: 15px;
@@ -92,6 +92,7 @@
     }
     .vpr-210__subtitle{
         font-size: 40px;
+        margin-top: 30px;
         margin-bottom: 30px;
     }
     table {
@@ -182,6 +183,7 @@
     }
     .vpr-210__subtitle{
         font-size: 40px;
+        margin-top: 30px;
         margin-bottom: 30px;
     }
     table {
