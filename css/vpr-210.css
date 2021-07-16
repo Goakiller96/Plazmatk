@@ -80,6 +80,8 @@
     }
     .vpr-210__title{
         font-size: 38px;
+        line-height: 54px;
+        max-width: 869px;
     }
     .vpr-210__content{
         margin-left: 15px;
