@@ -99,6 +99,9 @@
         line-height: 40px;
         margin-bottom: 80px;
     }
+    .table__subtitle{
+        font-size: 28px;
+    }
     .photo__products-vpr210 {
         width: 600px;
         height: 460px;
@@ -185,6 +188,9 @@
         font-size: 28px;
         line-height: 40px;
         margin-bottom: 80px;
+    }
+    .table__subtitle{
+        font-size: 28px;
     }
     .photo__products-vpr210 {
         width: 600px;
