@@ -15,7 +15,7 @@
 
 .photo__electrody-410 {
     max-width: 194px;
-    height: 250px;
+    max-height: 250px;
     display: block;
     margin: 0 auto;
 }
@@ -131,9 +131,9 @@
     .table__subtitle{
         font-size: 28px;
     }
-    .photo__products-vpr410 {
-        width: 600px;
-        height: 460px;
+    .photo__electrody-410 {
+        max-width: 600px;
+        max-height: 530px;
     }
     .footer{
         font-size: 22px;
@@ -229,6 +229,10 @@
     }
     .table__subtitle{
         font-size: 26px;
+    }
+    .photo__electrody-410 {
+        max-width: 600px;
+        max-height: 530px;
     }
 
     .footer{
