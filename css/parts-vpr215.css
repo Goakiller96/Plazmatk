@@ -32,3 +32,215 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px){
+    
+    .header-tel__link {
+        font-size: 20px;
+    }
+    .header-email__link {
+        font-size: 18px;
+    }
+    .menu{
+        background: #07ffaf38;
+        height: 64px;
+        padding: 10px 0;
+    }
+    .menu a{
+        font-size: 28px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .page{
+        padding-top: 0;
+        padding-bottom: 350px;
+    }
+    .new__table{
+        min-width: 995px;
+    }
+    .new__table-link{
+        font-size: 24px;
+        padding: 20px 90px;
+        line-height: 30px;
+    }
+    .new__table{
+        min-width: 995px;
+        top: 0;
+        position: static;
+    }
+    .new__table-link{
+        font-size: 30px;
+        line-height: 40px;
+        padding: 20px 20px;
+    }
+    .line{
+        width: 985px;
+    }
+    .container {
+        padding: 0;
+    }
+    .parts-vpr215__title{
+        font-size: 38px;
+        line-height: 54px;
+        max-width: 949px;
+    }
+    .card__item{
+        max-width: 240px;
+        height: 310px;
+    }
+    .card__img {
+        height: 200px;
+    }
+    .card__text{
+        font-size: 22px;
+        line-height: 27px;
+        padding: 0 5px;
+    }
+    .parts-vpr215__content{
+        margin-left: 15px;
+        font-size: 20px;
+        min-height: 100%;
+    }
+    .parts-vpr215-text{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .parts-vpr215__subtitle{
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    table {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 80px;
+    }
+    .table__subtitle{
+        font-size: 28px;
+    }
+    .photo__products-vpr210M {
+        width: 600px;
+        height: 460px;
+    }
+    .footer{
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .footer__group{
+        width: 180px;
+    }
+    .footer__content {
+        justify-content: space-around;
+    }
+    .content__text{
+        line-height: 29px;
+    }
+}
+
+
+
+@media (max-width: 375px){
+    .header__title{
+        display: none;
+    }
+    .header__logo-title{
+        font-size: 40px;
+        margin-bottom: 85px;
+    }
+    .header-tel__link {
+        font-size: 34px;
+    }
+    .header-tel {
+        margin-bottom: 15px;
+    }
+    .header-email__link {
+        font-size: 20px;
+    }
+    .menu{
+        background: #07ffaf38;
+        height: 64px;
+        padding: 10px 0;
+    }
+    .menu a{
+        font-size: 28px;
+    }
+    .new__table-link{
+        font-size: 28px;
+        line-height: 40px;
+        padding: 20px 90px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .new__table{
+        min-width: 995px;
+        top: 0;
+        position: static;
+    }
+    .new__table-link{
+        font-size: 30px;
+        line-height: 40px;
+        padding: 20px 20px;
+    }
+    .line{
+        width: 985px;
+    }
+    .parts-vpr215__content{
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .parts-vpr215__title{
+        font-size: 38px;
+        line-height: 54px;
+        max-width: 948px;
+    }
+    .card {
+        gap: 50px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card__item{
+        max-width: 340px;
+        height: 425px;
+    }
+    .card__img {
+        height: 270px;
+    }
+    .card__text{
+        font-size: 31px;
+        line-height: 39px;
+        padding: 0 5px;
+    }
+    .parts-vpr215__subtitle{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .table__subtitle{
+        font-size: 26px;
+    }
+
+    .footer{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .footer__content{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 15px;
+    }
+    .footer__group {
+        width: 175px; 
+    }
+}
+
+
