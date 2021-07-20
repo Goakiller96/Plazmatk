@@ -60,14 +60,33 @@
 
 
 
-
-
- 
-@media (max-width: 768px){
-    .content{
-        font-size: 20px;
-    }
+.menu__item{
+   
+    visibility: hidden;
 }
+
+.accordion{
+    visibility: hidden;
+ 
+}
+
+.panel{
+    visibility: hidden;
+    height: 0;
+}
+
+
+.new__table-item:not(:last-child){
+    border-bottom: 1px solid #fff;
+}
+
+
+
+
+
+
+
+
   
  
 @media (max-width: 576px){
@@ -95,6 +114,9 @@
     }
     .new__table{
         min-width: 995px;
+        visibility: hidden;
+        height: 0;
+        margin-bottom: 0;
     }
     .new__table-link{
         font-size: 24px;
@@ -156,9 +178,55 @@
     .content__text{
         line-height: 29px;
     }
+
+  
+    .accordion {
+        background-color: #CFD8DC;
+        color: #fff;
+        cursor: pointer;
+        padding: 16px;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 24px;
+        transition: 0.5s;
+        visibility: visible;
+    }
+    
+    .active, .accordion:hover {
+        background-color: #607D8B;
+    }
+    
+    .accordion:after {
+        content: '\002B';
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+    
+    .active:after {
+        content: "\2212";
+    }
+    
+    .panel {
+        color: #212121;
+        background-color: #cfd8dc;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+        visibility: visible;
+        margin-bottom: 100px;
+        height: 605px;
+    }
+    .new__table-link{
+        text-align: center;
+    }
 }
 
-@media (max-width: 375px){
+@media (max-width: 397px){
     .header__title{
         display: none;
     }
