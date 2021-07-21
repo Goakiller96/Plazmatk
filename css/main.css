@@ -191,7 +191,6 @@
         font-size: 28px;
         transition: 0.5s;
         visibility: visible;
-        padding-left: 80px;
     }
     .active, .accordion:hover {
         background-color: #607D8B;
