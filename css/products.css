@@ -17,10 +17,8 @@
     top: 50px;
 }
 
-.footer{
+.new__table-wrapper{
     display: block;
-    bottom: 0;
-    top: auto;
 }
 
 
@@ -29,7 +27,7 @@
 
 
  
-@media (max-width: 606px){
+@media (max-width: 576px){
     
     .header-tel__link {
         font-size: 20px;
@@ -101,6 +99,9 @@
     }
     .footer__group {
         width: 175px; 
+    }
+    .panel {
+        height: 745px;
     }
 }
 

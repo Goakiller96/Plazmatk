@@ -87,6 +87,8 @@
         font-size: 38px;
         line-height: 54px;
         max-width: 850px;
+        margin: 0 auto;
+        margin-bottom: 50px;
     }
     .vpr-415__content{
         margin-left: 15px;

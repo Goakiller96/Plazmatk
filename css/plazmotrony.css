@@ -90,20 +90,6 @@
     .container {
         padding: 0;
     }
-    .top__slider {
-        width: 260px;
-        margin: 0 auto;
-        margin-bottom: 30px;
-    }
-    .slider__title{
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 19px;
-    }
-    .top__slider-text{
-        font-size: 22px;
-        margin-bottom: 30px;
-    }
     .plazmotrony__content{
         margin-left: 15px;
         font-size: 20px;
@@ -166,6 +152,9 @@
     .content__text{
         line-height: 29px;
     }
+    .panel {
+        height: 665px;
+    }
 }
 
 @media (max-width: 375px){
@@ -198,14 +187,6 @@
         font-size: 28px;
         line-height: 40px;
         padding: 20px 90px;
-    }
-    .slider__title{
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 19px;
-    }
-    .top__slider-text{
-        font-size: 28px;
     }
     .title{
         font-size: 30px;

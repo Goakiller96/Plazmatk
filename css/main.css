@@ -20,9 +20,7 @@
 .color {
     color: #F69940;
 }
-.new__table-item:not(:last-child){
-    border-bottom: 1px solid #fff;
-}
+
 
 
 /* SLIDER */
@@ -60,10 +58,14 @@
 }
 
 
+
+
+
+
 /* MENU ACCORDEON */
 
 .menu__item{
-   opacity: 0;
+    opacity: 0;
     visibility: hidden;
     height: 0;
 }
@@ -121,8 +123,11 @@
     }
     .new__table-link{
         font-size: 24px;
-        padding: 20px 90px;
+        padding: 20px 0px;
         line-height: 30px;
+    }
+    .new__table-item{
+        padding: 10px 15px;
     }
     .container {
         padding: 0;
@@ -251,6 +256,9 @@
     }
     .menu a{
         font-size: 28px;
+    }
+    .new__table-item{
+        padding:0;
     }
     .new__table-link{
         font-size: 28px;
