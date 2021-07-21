@@ -25,7 +25,7 @@
 }
 
 
-
+/* SLIDER */
 
 .slider__title{
     font-family: 'Roboto', sans-serif;
@@ -60,7 +60,7 @@
 }
 
 
-
+/* MENU ACCORDEON */
 
 .menu__item{
    opacity: 0;
@@ -179,8 +179,6 @@
     .content__text{
         line-height: 29px;
     }
-
-  
     .accordion {
         background-color: #607D8B;
         color: #fff;
@@ -190,11 +188,11 @@
         border: none;
         text-align: center;
         outline: none;
-        font-size: 24px;
+        font-size: 28px;
         transition: 0.5s;
         visibility: visible;
+        padding-left: 80px;
     }
-    
     .active, .accordion:hover {
         background-color: #607D8B;
     }
@@ -202,26 +200,23 @@
     .accordion:after {
         content: '\002B';
         color: #fff;
-        font-size: 18px;
+        font-size: 30px;
         font-weight: bold;
         float: right;
-        margin-left: 5px;
+        margin-left: -20px;
     }
-    
     .active:after {
         content: "\2212";
     }
-    
     .panel {
         color: #212121;
         background-color: #cfd8dc;
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.3s ease-out;
+        transition: max-height 0.5s ease-out;
         visibility: visible;
         margin-bottom: 100px;
         height: 605px;
-        transition: .5s;
     }
     .new__table-link{
         text-align: center;
@@ -253,7 +248,6 @@
         height: 64px;
         padding: 10px 0;
     }
-  
     .menu a{
         font-size: 28px;
     }
@@ -261,6 +255,9 @@
         font-size: 28px;
         line-height: 40px;
         padding: 20px 90px;
+    }
+    .panel {
+        height: 620px;
     }
     .slider__title{
         font-weight: 500;
