@@ -20,7 +20,9 @@
 .color {
     color: #F69940;
 }
-
+.new__table-item:not(:last-child){
+    border-bottom: 1px solid #fff;
+}
 
 
 
@@ -61,13 +63,14 @@
 
 
 .menu__item{
-   
+   opacity: 0;
     visibility: hidden;
+    height: 0;
 }
 
 .accordion{
     visibility: hidden;
- 
+    
 }
 
 .panel{
@@ -76,9 +79,7 @@
 }
 
 
-.new__table-item:not(:last-child){
-    border-bottom: 1px solid #fff;
-}
+
 
 
 
@@ -181,7 +182,7 @@
 
   
     .accordion {
-        background-color: #CFD8DC;
+        background-color: #607D8B;
         color: #fff;
         cursor: pointer;
         padding: 16px;
@@ -220,9 +221,13 @@
         visibility: visible;
         margin-bottom: 100px;
         height: 605px;
+        transition: .5s;
     }
     .new__table-link{
         text-align: center;
+    }
+    .new__table{
+        opacity: 0;
     }
 }
 
