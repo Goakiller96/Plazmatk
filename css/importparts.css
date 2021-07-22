@@ -7,16 +7,18 @@
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .importparts__subtitle{
     margin-bottom: 50px;
+    line-height: 40px;
 }
 
 .photo__import-9{
     display: block;
     margin: 0 auto;
+    width: 700px;
 }
 
 
@@ -33,7 +35,7 @@
 
 
  
-@media (max-width: 576px){
+@media (max-width: 995px){
     
     .header-tel__link {
         font-size: 20px;
