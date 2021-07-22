@@ -231,4 +231,7 @@
     .footer__group {
         width: 175px; 
     }
+    .panel {
+        height: 785px;
+    }
 }

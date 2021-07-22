@@ -174,13 +174,14 @@ textarea.error:focus {
     .contacts__item{
         font-size: 26px;
         line-height: 29px;
+        margin-bottom: 20px;
     }
     .contacts__title{
         font-size: 30px;
         margin-bottom: 50px;
     }
     .contacts__list{
-        margin-bottom: 100px;
+        margin-bottom: 200px;
     }
     .contacts__first{
         font-size: 30px;
@@ -207,6 +208,35 @@ textarea.error:focus {
     }
     .contacts__content{
         padding-right:0px;
+    }
+    .order__title {
+        font-size: 38px;
+        margin-bottom: 125px;
+    }
+    .form__content {
+        max-width: 600px;
+    }
+    .txt {
+        width: 400px;
+        margin-bottom: 15px;
+        padding: 20px 9px;
+        font-size: 28px !important;
+        line-height: 1.4em;
+    }
+    .txtarea {
+        width: 600px;
+        min-width: 120px;
+        margin-bottom: 30px;
+        padding: 5px 9px;
+        font-size: 26px !important;
+        height: 200px;
+        min-height: 200px;
+    }
+    #send {
+        padding: 22px 11px;
+        font-size: 2.1em;
+        width: 250px;
+        margin-bottom: 20px;
     }
 }
 
@@ -270,12 +300,15 @@ textarea.error:focus {
     }
     .contacts__title{
         font-size: 38px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     .contacts__item{
         font-size: 28px;
         line-height: 40px;
-        margin-bottom: 8px;
+        margin-bottom: 20px;
+    }
+    .contacts__list{
+        margin-bottom: 200px;
     }
     .contacts__text{
         line-height: 40px;
@@ -286,6 +319,9 @@ textarea.error:focus {
     }
     .contacts__first{
         font-size: 26px;
+    }
+    .panel {
+        height: 785px;
     }
   
     .footer{
@@ -300,6 +336,13 @@ textarea.error:focus {
     .footer__group {
         width: 175px; 
     }
+    #send {
+        padding: 22px 11px;
+        font-size: 1.1em;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
 }
 
 
