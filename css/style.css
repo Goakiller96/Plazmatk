@@ -534,10 +534,10 @@ td {
      visibility: hidden;
      height: 0;
  }
- .new__table-item:not(:last-child){
+ /* .new__table-item:not(:last-child){
     border-bottom: 1px solid #fff;
 }
- 
+  */
  
  @media (max-width: 576px){
   .new__table{

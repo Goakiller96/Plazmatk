@@ -1,6 +1,5 @@
 .parts__content{
     padding: 0 15px;
-    margin-left: 80px;
 }
 
 .parts__cards{
@@ -39,7 +38,7 @@
 
 
 
-@media (max-width: 606px){
+@media (max-width: 576px){
     
     .header-tel__link {
         font-size: 20px;
@@ -126,7 +125,7 @@
 
 
 
-@media (max-width: 397px){
+@media (max-width: 375px){
     .header__title{
         display: none;
     }
