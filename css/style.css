@@ -488,7 +488,7 @@ td {
 }
 
 .card__item {
-    max-width: 175px;
+    width: 175px;
     padding: 5px 5px 15px 5px;
     border: solid 1px #c8d3d9;
     border-radius: 5px;
