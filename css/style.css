@@ -325,6 +325,7 @@ h2 {
     text-decoration: none;
     color: #000;
     display: inline-block;
+    width: 100%;
 }
 .new__table-link:hover {
     color: #fff;
