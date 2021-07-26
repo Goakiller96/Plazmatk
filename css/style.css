@@ -344,8 +344,8 @@ h2 {
 
 
 .footer {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     background-color: #bbbfc2;
     margin-top: auto;
 }
@@ -535,10 +535,12 @@ td {
      visibility: hidden;
      height: 0;
  }
- /* .new__table-item:not(:last-child){
-    border-bottom: 1px solid #fff;
-}
-  */
+
+
+
+
+
+ 
  
  @media (max-width: 576px){
   .new__table{
