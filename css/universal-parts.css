@@ -1,5 +1,6 @@
 .universal-parts__content{
   padding: 0 15px;
+  margin-left: 80px;
 }
 
 .universal-parts__cards {
@@ -39,6 +40,9 @@
     color: #000;
 }
 
+.panel{
+    width: 0;
+}
 
 
 
@@ -197,6 +201,10 @@
   .content__text{
       line-height: 29px;
   }
+  .panel {
+    height: 745px;
+    width: -webkit-fill-available;
+}
 }
 
 @media (max-width: 375px){

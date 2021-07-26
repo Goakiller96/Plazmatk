@@ -1,5 +1,6 @@
 .parts__content{
     padding: 0 15px;
+    margin-left: 80px;
 }
 
 .parts__cards{
@@ -13,6 +14,9 @@
 .new__table{
     position: sticky;
     top: 50px;
+}
+.panel{
+    width: 0;
 }
 
 .parts__photo {
@@ -92,7 +96,7 @@
     }
 
     .card__item {
-        max-width: 250px;
+        width: 250px;
     }
     .card__img {
         height: 175px;
@@ -120,6 +124,10 @@
     }
     .footer__group {
         width: 175px; 
+    }
+    .panel {
+        height: 745px;
+        width: -webkit-fill-available;
     }
 }
 
@@ -183,7 +191,7 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .card__item {
-        max-width: 320px;
+        width: 320px;
     }
     .card__img {
         height: 220px;

@@ -21,9 +21,14 @@
     width: 700px;
 }
 
+.new__table{
+    position: sticky;
+    top: 50px;
+}
 
-
-
+.panel{
+    width: 0;
+}
 
 
 
@@ -90,6 +95,11 @@
     .footer__content {
         justify-content: space-around;
     }
+    .panel {
+        height: 745px;
+        width: -webkit-fill-available;
+    }
+}
 }
 
 @media (max-width: 375px){

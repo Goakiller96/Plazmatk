@@ -9,6 +9,12 @@
 
 .products__content {
     padding: 0 15px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+
+.new__table-wrapper{
+    display: block;
 }
 
 .new__table{
@@ -16,11 +22,9 @@
     top: 50px;
 }
 
-.new__table-wrapper{
-    display: block;
+.panel{
+    width: 0;
 }
-
-
 
 
 
@@ -63,9 +67,6 @@
         line-height: 40px;
         padding: 20px 20px;
     }
-    .line{
-        width: 985px;
-    }
     .container {
         padding: 0;
     }
@@ -78,7 +79,7 @@
         font-size: 30px;
     }
     .card__item {
-        max-width: 250px;
+        width: 250px;
     }
     .card__img {
         height: 175px;
@@ -101,6 +102,10 @@
     }
     .panel {
         height: 745px;
+        width: -webkit-fill-available;
+    }
+    .products__content {
+        margin-bottom: 100px;
     }
 }
 
@@ -164,7 +169,7 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .card__item {
-        max-width: 320px;
+        width: 320px;
     }
     .card__img {
         height: 220px;

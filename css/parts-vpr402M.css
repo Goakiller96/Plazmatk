@@ -1,10 +1,14 @@
 .parts-vpr402M__content{
     padding: 0 15px;
+    margin-left: 80px;
 }
  
 .new__table{
     position: sticky;
     top: 50px;
+}
+.panel{
+    width: 0;
 }
 
 .parts-vpr402M__subtitle{
@@ -95,7 +99,7 @@
         max-width: 949px;
     }
     .card__item{
-        max-width: 240px;
+        width: 240px;
         max-height: 310px;
     }
     .card__img {
@@ -144,6 +148,10 @@
     }
     .content__text{
         line-height: 29px;
+    }
+    .panel {
+        height: 745px;
+        width: -webkit-fill-available;
     }
 }
 
@@ -209,7 +217,7 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .card__item{
-        max-width: 340px;
+        width: 340px;
         max-height: 425px;
     }
     .card__img {

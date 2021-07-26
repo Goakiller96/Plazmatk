@@ -1,5 +1,6 @@
 .parts-vpr210M__content{
    padding: 0 15px;
+   margin-left: 80px;
 }
 
 .parts-vpr210M__title{
@@ -27,7 +28,9 @@
     position: sticky;
     top: 50px;
 }
-
+.panel{
+    width: 0;
+}
 
 
 
@@ -92,7 +95,7 @@
         max-width: 949px;
     }
     .card__item{
-        max-width: 240px;
+        width: 240px;
         height: 310px;
     }
     .card__img {
@@ -141,6 +144,10 @@
     }
     .content__text{
         line-height: 29px;
+    }
+    .panel {
+        height: 745px;
+        width: -webkit-fill-available;
     }
 }
 
@@ -206,7 +213,7 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .card__item{
-        max-width: 340px;
+        width: 340px;
         height: 425px;
     }
     .card__img {

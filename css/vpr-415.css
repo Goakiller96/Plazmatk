@@ -21,7 +21,9 @@
     top: 50px;
 }
 
-
+.panel{
+    width: 0;
+}
 
 
 
@@ -128,6 +130,10 @@
     }
     .content__text{
         line-height: 29px;
+    }
+    .panel {
+        height: 745px;
+        width: -webkit-fill-available;
     }
 }
 
