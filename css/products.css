@@ -111,7 +111,7 @@
 
 
 
-@media (max-width: 397px){
+@media (max-width: 375px){
     .header__title{
         display: none;
     }
