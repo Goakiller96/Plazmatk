@@ -575,10 +575,12 @@ td {
     }
     .header-tel__link{
         color: #fff;
+        font-size: 26px;
         text-shadow: 2px 2px 5px #000;
     }
     .header-email__link {
         color: #fff;
+        font-size: 18px;
         text-shadow: 2px 2px 5px #000;
     }
     .header__title{
