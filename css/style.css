@@ -571,7 +571,11 @@ td {
         text-shadow: 6px 4px 5px #000;
     }
     .header__logo-link::before{
-        display: none;
+        background-image: url('../images/header/logo-white.svg');
+        width: 90px;
+        height: 90px;
+        left: -91px;
+        top: -33px;
     }
     .header-tel__link{
         color: #fff;
