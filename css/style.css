@@ -664,6 +664,9 @@ td {
     .header__logo-link{
         font-size: 54px;
     }
+    .header__logo-link::before{
+        top: -25px;
+    }
     .header-tel__link {
         font-size: 34px;
     }
