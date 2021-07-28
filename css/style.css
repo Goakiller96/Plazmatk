@@ -205,10 +205,10 @@ h2 {
     content: '';
     background-image: url('../images/header/logo.svg');
     background-repeat: no-repeat;
-    width: 61px;
-    height:61px;
-    left: -70px;
-    top: -30px;
+    width: 90px;
+    height: 90px;
+    left: -100px;
+    top: -40px;
 }
 
 
