@@ -20,7 +20,23 @@
 .color {
     color: #F69940;
 }
+.content__list{
+    opacity: .7;
+    margin-bottom: 50px;
+}
 
+.content__item-2{
+    text-align: center;
+    list-style: none;
+    padding: 8px 0;
+    margin: 1px auto;
+    color: #000;
+    background-color: #c8d3d9;
+    border-radius: 3px;
+}
+.content__title{
+    margin-bottom: 50px;
+}
 
 
 
