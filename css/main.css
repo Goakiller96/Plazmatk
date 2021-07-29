@@ -23,6 +23,9 @@
 .color {
     color: #F69940;
 }
+.content__list{
+    margin-bottom: 30px;
+}
 .second__list{
     opacity: .7;
     margin-bottom: 50px;
@@ -42,9 +45,7 @@
 .content__title{
     margin-bottom: 50px;
 }
-.content__list{
-    margin-bottom: 30px;
-}
+
 
 
 
