@@ -117,7 +117,10 @@
   
  
 @media (max-width: 576px){
-    
+    .page{
+        margin-bottom: 150px;
+    }
+
     .header-tel__link {
         font-size: 26px;
     }
@@ -175,16 +178,13 @@
         font-size: 20px;
         min-height: 100%;
     }
-    .content__item{
-        font-size: 18px;
-        line-height: 29px;
-    }
     .content__text{
         font-size: 24px;
         line-height: 40px;
     }
     .content__item{
         font-size: 22px;
+        line-height: 29px;
         margin-bottom: 8px;
     }
     .content__title{
@@ -206,7 +206,9 @@
         justify-content: space-around;
     }
     .content__text{
-        line-height: 29px;
+         font-size: 28px;
+         line-height: 40px;
+         /* line-height: 29px; */
     }
     .accordion {
         background-color: #607D8B;
