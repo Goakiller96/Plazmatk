@@ -117,9 +117,6 @@
   
  
 @media (max-width: 576px){
-    .page{
-        padding-bottom: 350px;
-    }
 
     .header-tel__link {
         font-size: 26px;
@@ -140,7 +137,7 @@
     }
     .page{
         padding-top: 0;
-        padding-bottom: 350px;
+        padding-bottom: 450px;
     }
     .new__table{
         min-width: 995px;
