@@ -31,7 +31,7 @@
 .content__item-2{
     text-align: center;
     list-style: none;
-    padding: 8px 0;
+    padding: 10px 0;
     margin: 1px auto;
     color: #000;
     background-color: #c8d3d9;
@@ -39,6 +39,9 @@
 }
 .content__title{
     margin-bottom: 50px;
+}
+.content__list{
+    margin-bottom: 30px;
 }
 
 
