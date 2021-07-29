@@ -5,6 +5,9 @@
    padding: 0 15px;
    margin-left: 80px;
 }
+.content__text{
+    margin-bottom: 30px;
+}
 .title__one {
     color: #F69940;
     font-size: 18px;
@@ -20,7 +23,7 @@
 .color {
     color: #F69940;
 }
-.content__list{
+.second__list{
     opacity: .7;
     margin-bottom: 50px;
 }
