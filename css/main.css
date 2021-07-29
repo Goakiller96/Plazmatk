@@ -118,7 +118,7 @@
  
 @media (max-width: 576px){
     .page{
-        margin-bottom: 150px;
+        padding-bottom: 150px;
     }
 
     .header-tel__link {
