@@ -27,7 +27,9 @@
     opacity: .7;
     margin-bottom: 50px;
 }
-
+.content__item{
+    margin-bottom: 10px;
+}
 .content__item-2{
     text-align: center;
     list-style: none;
