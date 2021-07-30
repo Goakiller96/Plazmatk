@@ -41,9 +41,11 @@
     position: relative;
     max-height: 200px;
     min-height: 60px;
+    transition: all .5s;
 }
 .content__item:hover{
     border: 1px solid #88a5b4;
+    transition: all .5s;
 }
 .content__item::before{
     content: '0' counter(my-counter);
@@ -58,6 +60,7 @@
 }
 .content__item:hover::before{
     color: #88a5b4;
+    transition: all .5s;
 }
 .content__item-text{
     font-size: 19px;
@@ -219,6 +222,10 @@
         font-size: 22px;
         line-height: 29px;
         margin-bottom: 8px;
+    }
+    .content__item-text {
+        font-size: 23px;
+        line-height: 30px;
     }
     .content__item-2{
         font-size: 26px;
