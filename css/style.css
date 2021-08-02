@@ -542,7 +542,48 @@ td {
 
 
 
-
+@media (max-width: 996px){
+    .bg-1{
+       width: 100%;
+    }
+    .bg-2{
+        display: none;
+    }
+    .bg-3{
+       display: none;
+   }
+   .header__info{
+       color: #fff;
+   }
+   .header__logo-subtitle{
+       text-shadow: 2px 2px 5px #000;
+       margin-bottom: 10px;
+   }
+   .header__logo-link{
+       color: #fff;
+       font-size: 42px;
+       text-shadow: 6px 4px 5px #000;
+   }
+   .header__logo-link::before{
+       background-image: url('../images/header/logo-white.svg');
+       width: 90px;
+       height: 90px;
+       left: -91px;
+       top: -33px;
+   }
+   .header-tel__link{
+       color: #fff;
+       font-size: 26px;
+       text-shadow: 2px 2px 5px #000;
+   }
+   .header-email__link {
+       color: #fff;
+       font-size: 18px;
+       text-shadow: 2px 2px 5px #000;
+   }
+   .header__title{
+       text-shadow: 2px 2px 5px #000;
+   }
 
 
  
