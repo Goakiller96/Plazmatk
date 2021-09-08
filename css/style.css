@@ -250,6 +250,9 @@ h2 {
     font-size: 18px;
     font-weight: 600;
 }
+.menu .active-1{
+    color: #c34408;
+}
 
 .menu ul {
     list-style: none;
