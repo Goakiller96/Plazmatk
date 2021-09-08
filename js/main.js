@@ -42,17 +42,26 @@ $(function () {
     });
 });
 
-
-
-
-
-
-
-
-$('.menu-btn').on('click', function(e) {
-    e.preventDefault;
-    $(this).toggleClass('menu-btn_active');
+$(function () {  
+  $('.menu__link').each(function () { 
+      var location2 = window.location.href; 
+      var link2 = this.href;  
+      if(location2 == link2) { 
+          $(this).addClass('active-1');
+      }
   });
+});
+
+
+
+
+
+
+
+// $('.menu-btn').on('click', function(e) {
+//     e.preventDefault;
+//     $(this).toggleClass('menu-btn_active');
+//   });
 
 
 
@@ -61,13 +70,13 @@ $('.menu-btn').on('click', function(e) {
 
 // АККОРДЕОН
 
-  var acc = document.getElementsByClassName("accordion");
-  var i;
+  let acc = document.getElementsByClassName("accordion");
+  let i;
   
   for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function() {
       this.classList.toggle("active");
-      var panel = this.nextElementSibling;
+      let panel = this.nextElementSibling;
       if (panel.style.maxHeight){
         panel.style.maxHeight = null;
       } else {
